@@ -1,0 +1,67 @@
+{
+    "alias": ".d",
+    "facility-flow":
+    {
+        "dfw-south":
+        {
+            "departure_sector_id": "51",
+            "keybind_runway_dict":
+            {
+                "ctrl+alt+a": "18L",
+                "ctrl+alt+s": "17R"
+            }
+        },
+
+        "dfw-north":
+        {
+            "departure_sector_id": "51",
+            "keybind_runway_dict":
+            {
+                "ctrl+alt+a": "36R",
+                "ctrl+alt+s": "35L"
+            }
+        },
+
+        "dal-south":
+        {
+            "departure_sector_id": "51",
+            "keybind_runway_dict":
+            {
+                "ctrl+alt+a": "13L",
+                "ctrl+alt+s": "13R"
+            }
+        },
+
+        "dal-north":
+        {
+            "departure_sector_id": "51",
+            "keybind_runway_dict":
+            {
+                "ctrl+alt+a": "31R",
+                "ctrl+alt+s": "31L"
+            }
+        },
+
+        "okc-south":
+        {
+            "departure_sector_id": "51",
+            "keybind_runway_dict":
+            {
+                "ctrl+alt+a": "17R",
+                "ctrl+alt+s": "17L",
+                "ctrl+alt+d": "13"
+            }
+        },
+        
+        "okc-north":
+        {
+            "departure_sector_id": "51",
+            "keybind_runway_dict":
+            {
+                "ctrl+alt+a": "35L",
+                "ctrl+alt+s": "35R",
+                "ctrl+alt+d": "31"
+            }
+        }
+    }
+}
