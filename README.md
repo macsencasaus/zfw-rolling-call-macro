@@ -7,7 +7,7 @@ This script maps hotkeys to the rolling call alias for VRC. Gives the option to 
 Clone the repo and install the libraries in `requirements.txt` ideally in a fresh virtual environment.
 
 ```
-git clone https:\\ ; cd
+git clone https://github.com/macsencasaus/zfw-rolling-call-macro.git ; cd zfw-rolling-call-macro
 ```
 ```
 pip install -r requirements.txt
@@ -36,4 +36,12 @@ python macro.py -f FACILITY-FLOW
 
 ## Changing Departure Sector ID
 
-Once the script runs, you will be prompted to enter a new departure sector ID. If you want a different departure sector ID while the program is running, you can type it in the terminal following the prompt. You can also change the default departure sector ID in the `config.json` file.
+Once the script runs, you will be prompted to enter a new departure sector ID. If you want a different departure sector ID while the program is running, you can type it in the terminal following the prompt. You can also change the default departure sector ID in the `config.json` file that only changes the ID when the script is run again.
+
+## Advanced
+
+Type in the following for more options:
+
+```
+python macro.py -h
+```
