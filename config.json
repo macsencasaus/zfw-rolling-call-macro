@@ -27,8 +27,8 @@
             "departure_sector_id": "51",
             "keybind_runway_dict":
             {
-                "ctrl+alt+a": "13L",
-                "ctrl+alt+s": "13R"
+                "ctrl+alt+a": "13R",
+                "ctrl+alt+s": "13L"
             }
         },
 
@@ -61,6 +61,22 @@
                 "ctrl+alt+a": "35L",
                 "ctrl+alt+s": "35R",
                 "ctrl+alt+d": "31"
+            }
+        },
+        "sjt-east":{
+            "departure_sector_id": "51",
+            "keybind_runway_dict":
+            {
+                "ctrl+alt+a": "18",
+                "ctrl+alt+s": "9"
+            }
+        },
+        "law":{
+            "departure_sector_id": "51",
+            "keybind_runway_dict":
+            {
+                "ctrl+alt+a": "35",
+                "ctrl+alt+s": "17"
             }
         }
     }
